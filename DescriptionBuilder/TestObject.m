@@ -37,13 +37,12 @@ static TestObject *sharedObject;
 	return self;
 }
 
-- (void)dealloc {
-	[alarmSound release];
-	[super dealloc];
-}
-
 - (NSString *)description {
-    return [DescriptionBuilder reflectDescription:self];
+//    return [DescriptionBuilder reflectDescription:self];
+    return [DescriptionBuilder reflectDescription:self style:DescriptionStyleMultiLine];
+//    return [DescriptionBuilder reflectDescription:self style:DescriptionStyleNoNames];
+//    return [DescriptionBuilder reflectDescription:self style:DescriptionStyleShortPrefix];
+//    return [DescriptionBuilder reflectDescription:self style:DescriptionStyleSimple];
 }
 
 @end
