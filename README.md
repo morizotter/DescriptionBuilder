@@ -1,6 +1,4 @@
-# DescriptionBuilder (iPhone Utility Program)
-
-## Desctiption
+# DescriptionBuilder
 
 This program was originally made by KISHIKAWA Katsumi. And I forked it. Because of the changes are a lot, I rewrited this README.
 
