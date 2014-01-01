@@ -2,7 +2,7 @@
 
 ## Desctiption
 
-This program was made by KISHIKAWA Katsumi. And I forked it. Because of the changes are a lot, I rewrited this README.
+This program was originally made by KISHIKAWA Katsumi. And I forked it. Because of the changes are a lot, I rewrited this README.
 
 DescriptionBuilder is helper class to make easier implementing NSObject description method.
 Or dump all instance variables of any object. 
