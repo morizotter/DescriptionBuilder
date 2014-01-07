@@ -82,7 +82,10 @@
         NSString *propertyName = [NSString stringWithCString:property_getName(property)
                                                     encoding:NSASCIIStringEncoding];
         id propertyValue = [obj valueForKey:propertyName];
-        [properties setObject:propertyValue forKey:propertyName];
+        
+        if (propertyValue) {
+            [properties setObject:propertyValue forKey:propertyName];
+        }
     }
     return properties;
 }
